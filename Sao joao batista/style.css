@@ -42,7 +42,7 @@ header {
   display: flex;
   margin: 0;
   padding: 0;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 @media (max-width: 1000px) {
@@ -62,6 +62,7 @@ header {
   .navbar a {
     font-size: 14px;
     padding: 8px 5px;
+  
   }
 }
 
@@ -380,7 +381,7 @@ i {
 .evento {
   background: #fff;
   border: 1px solid #ddd;
-  width: 320px;
+  width: 450px;
   height: 400px;
   border-radius: 10px;
   overflow: hidden;
